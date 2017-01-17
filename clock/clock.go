@@ -13,8 +13,9 @@ type Clock int16
 
 // This function converts the time to minutes
 func New(hour, minute int)  Clock  {
+	if
 	allMins := hour*60 + minute
-	
+
 
 	return Clock(allMins)
 }
